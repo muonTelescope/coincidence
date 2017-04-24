@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "Counts the number of coincidence events that occur every duration",
   "author": "Sawaiz Syed asyed5@gsu.edu",
-  "main": "server.js",
-  "scripts": {
-    "start": "npm install --no-bin-links && nodemon -L --debug=5858 server.js"
-  },
+  "main": "coincidence.js",
   "dependencies": {
     "onoff": "*"
   }
