@@ -56,7 +56,7 @@ module.exports = class coincidence {
         if (this.logging) {
             // Go through the interupt counts, add them to data, reset value to 0
             var data = {};
-            for (pin in this.pins) {
+            for (var pin in this.pins) {
                 data[this.pins[pin][0]] = this.pins[pin][2].count;
                 this.pins[pin][2].count = 0;
             }
