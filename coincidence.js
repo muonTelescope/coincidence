@@ -14,7 +14,7 @@
 // ];
 //
 // //Use Example
-// var Coincidence = require("./coincidence.js");
+// var Coincidence = require("coincidence");
 // var coincidence = new Coincidence(config.pins);
 // setInterval(function(){
 //  console.log(coincidence.log()); 
